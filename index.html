@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yunamo 免费二级域名落地页</title>
+<meta name="description" content="This site is served from a free .loc.cc subdomain.">
+<style>
+  :root { color-scheme: light dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    background: #f6f7f9;
+    color: #1f2328;
+    padding: 24px;
+  }
+  .card {
+    max-width: 520px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e3e6ea;
+    border-radius: 14px;
+    padding: 36px 32px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.05);
+  }
+  .dot {
+    display: inline-block;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: #2ea043;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  .status { font-size: 13px; color: #57606a; letter-spacing: .3px; }
+  h1 {
+    font-size: 26px;
+    line-height: 1.35;
+    margin: 18px 0 12px;
+    font-weight: 650;
+  }
+  p { font-size: 15px; line-height: 1.75; color: #57606a; }
+  .meta {
+    margin-top: 26px;
+    padding-top: 20px;
+    border-top: 1px solid #eaecef;
+    font-size: 13px;
+    color: #8b949e;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    background: #f2f4f6;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: .92em;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0d1117; color: #e6edf3; }
+    .card { background: #161b22; border-color: #30363d; box-shadow: none; }
+    p, .status { color: #8b949e; }
+    code { background: #21262d; }
+    .meta { border-top-color: #21262d; }
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="status"><span class="dot"></span>站点运行中</div>
+    <h1>Hello, this name is alive.</h1>
+    <p>
+      这个页面由 GitHub Pages 托管，通过 <code>.loc.cc</code> 免费二级域名访问。
+      它的作用只有一个：保持站点可访问、证书有效，让域名健康检查稳定通过。
+    </p>
+    <div class="meta">
+      <span>Hosted on GitHub Pages</span>
+      <span>HTTPS enabled</span>
+    </div>
+  </main>
+</body>
+</html>
